@@ -1,0 +1,323 @@
+#content{
+    background-color: #fcfcfc;
+    padding-top: 44px;
+    padding-bottom: 78px;
+}
+#content > div{
+    display: flex;
+    justify-content: space-between;
+}
+.first-part{
+    width: 23%;
+}
+.second-part{
+    width: 73%;
+}
+.brand{
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.brand > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 14px;
+}
+.brand > div > img{
+    width: 100%;
+}
+.info-text-block{
+    margin: 32px 0 14px;
+}
+.info-text-block > p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.info-text-block > p > a{
+    color: #000000;
+}
+.title-block{
+    margin-bottom: 14px;
+}
+.title-block > h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+.info-block{
+    border: 1px solid #E5E5E5;
+    padding: 15px 10px 10px;
+    margin-bottom: 32px;
+}
+.info-block > div{
+    display: flex;
+    align-items: center;
+}
+.info-block > div > p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #14AFF4;
+}
+.info-block > p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 0 0 0 20px;
+}
+.info-block_1{
+    border: 1px solid #E5E5E5;
+    padding: 15px 15px 10px;
+}
+.info-block_1 > div{
+    display: flex;
+    align-items: center;
+}
+.info-block_1 > div > p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #14AFF4;
+}
+.info-block_1 > p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;    
+}
+.info-block_1 > h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 2px;
+}
+.info-block_1 > h6:nth-child(3){
+    margin-top: 17px;
+}
+.info-block_1 > h6:nth-child(5){
+    margin-top: 10px;
+}
+.info-block_1 > p:nth-child(2){
+    margin-top: 10px;
+}
+.general-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+    margin-bottom: 4px;
+}
+.block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block > div{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-right: 10px;
+}
+.block > div:last-child{
+    margin-right: 0;
+}
+.cards{
+    margin-top: 40px;
+}
+.cards > div{
+    margin-bottom: 26px;
+}
+.cards > div:last-child{
+    margin-bottom: 0;
+}
+.card{
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-footer{
+    background: #E5E5E5;
+    border: 1px solid #E5E5E5;
+    cursor: pointer;
+}
+.card-footer p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 7px 18px;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 18px 11px;
+}
+.card-header > div:first-child{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.percents{
+    width: 102px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #14AFF4;
+}
+.card-block{
+    margin-left: 18px;
+}
+.card-block > p:first-child{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #14AFF4;
+    margin-bottom: 4px;
+}
+.card-block > p:nth-child(2){
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.card-block > p:last-child{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0;
+    color: #14AFF4;
+}
+@media only screen and (max-width: 900px) {
+    .second-part {
+        width: 66%;
+    }
+    .first-part {
+        width: 29%;
+    }
+    .info-text-block > p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .title-block > h6 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .info-block > div > p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .info-block > p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .info-block_1 > div > p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .info-block_1 > p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .info-block_1 > h6 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .general-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .block > div {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .percents {
+        width: 70px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .card-block > p:first-child {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .card-block > p:nth-child(2) {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .card-block > p:last-child {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .card-footer p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    #content > div{
+        flex-direction: column;
+    }
+    .first-part {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .second-part {
+        width: 100%;
+    }
+    .brand{
+        width: fit-content;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .card-header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .card-header > div:first-child{
+        margin-bottom: 30px;
+    }
+    .card-header > div:last-child{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+}
